@@ -15,3 +15,99 @@
     }
     
 }
+
+.hero-flower {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f4f7fb;
+    border-radius: 10px;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    max-width: 3000px;
+    margin: 80px auto;
+}
+.design-item{
+    color: red;
+}
+.fresh-item {
+    border-radius: 10px;
+    padding: 40px 30px;
+    text-align: left;
+    max-width: 800px;
+}
+.fresh-item p {
+    padding: 10px;
+    font-size: 30px;
+}
+.all-fresh {
+    font-size: 100px;
+}
+.beauty-flower {
+    border-radius: 10PX;
+    padding: 40px 30px;
+
+}
+/* section design */
+
+.PLants-title {
+    width: 3000px;
+    height: 1800px;
+    margin-top: 200px;
+    margin-left: 200px;
+
+}
+.big-title {
+    align-items: center;
+    font-size: 30px;
+    width: 1400px;
+    height: 138px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 0;
+    text-align: center;
+    margin-left: 1000px;
+    margin-bottom: 200px;
+}
+.big-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content:space-around;
+    margin-left: 350px;
+    gap: 300px;
+}
+.our-item {
+    color: red;
+} 
+.big-title h1 {
+    font-size: 100px;
+}
+.big-title p {
+    font-size: 40px;
+}
+.button-item {
+    background-color: #E95A08;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border: none;
+    padding: 38px 85px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.banner-title {
+    border-radius: 10px;
+    padding: 0;
+    width: 400px;
+    height: 600px;
+}
+
+.banner-title h1{
+    font-size: 60px;
+}
+@media screen  and (max-width:576px) {
+    .big-item {
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
