@@ -286,3 +286,10 @@
     font-size: 70px;
     color:#fafafa;
 }
+
+/* footer comment */
+.news-latter {
+    margin-top: 200px;
+    position: relative;
+    text-align: center;
+}   
