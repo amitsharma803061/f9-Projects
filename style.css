@@ -150,3 +150,139 @@
     right: 0.05px;
     z-index: 2;
 }
+
+/* section comment */
+.latest-item {
+    margin: 0;
+
+}
+.class-hide {
+    margin-top: 700px;
+    text-align: center;
+}
+.class-hide h1 {
+    font-size: 100px;
+}
+.class-hide p {
+    font-size: 40px;
+}
+.vip-item {
+    color: red;
+}
+
+
+/* nav 1 */
+.box-item {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 600px;
+    gap: 50px;
+}
+.box-title {
+    display: grid;
+    gap: 40px;
+}
+
+.promo-banner {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+.promo-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.promo-banner img {
+    object-fit: cover;
+    display: block;
+}
+.promo-content {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.promo-content h1 {
+    font-size: 60px;
+    color: #fafafa;
+}
+.promo-content a {
+    font-size: 50px;
+    color: #fafafa;
+}
+
+/* live banner */
+.live-banner {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+.live-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.live-banner img {
+    object-fit: cover;
+    display: block;
+}
+.one-content {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.one-content h1 {
+    font-size: 60px;
+    color: #f4f7fb;
+}
+.one-content a {
+    font-size: 50px;
+    color: #f4f7fb;
+}
+
+/* server banner */ 
+.server-banner {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+.server-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.server-banner img {
+    object-fit: cover;
+    display: block;
+}
+.some-content {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.some-content h1 {
+    font-size: 80px;
+    color: #fafafa;
+}
+.some-content a {
+    font-size: 70px;
+    color:#fafafa;
+}
