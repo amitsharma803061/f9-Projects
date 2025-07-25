@@ -1,0 +1,17 @@
+.first-item {
+    display: flex;
+    justify-content: space-around;
+    size: 40px;
+}
+
+.home-item {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+@media screen and (max-width:576px) {
+    .first-item, .home-item {
+        flex-direction: column;
+    }
+    
+}
